@@ -6,6 +6,29 @@ body {
 }
 
 .main {
-    padding-top: 100px;
+    padding: 6rem 3rem;
     color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-text-container {
+    flex-direction: column;
+}
+
+.btn-container {
+    padding: 15px 0;
+}
+
+.btn {
+    margin-right: 2.5rem;
+}
+
+.main-img img {
+    width: 350px;
+    height: 400;
 }
