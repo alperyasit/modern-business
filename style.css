@@ -32,3 +32,17 @@ body {
     width: 350px;
     height: 400;
 }
+
+.text-image {
+    background-color: red;
+    height: 550px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.img-container {
+    display: flex;
+}
