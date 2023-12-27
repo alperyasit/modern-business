@@ -34,7 +34,7 @@ body {
 }
 
 .text-image {
-    background-color: red;
+    background-color: #fff;
     height: 550px;
     padding-top: 50px;
     display: flex;
@@ -50,8 +50,7 @@ body {
 /* MAXİM */
 
 .maxim {
-    color: #fff;
-    background-color: black;
+    color: black;
     padding: 5rem;
     display: flex;
     flex-direction: column;
@@ -63,7 +62,53 @@ body {
     text-align: center;
 }
 
-.maxim-name img {
+.maxim-container img {
     border-radius: 50px;
     margin-right: 10px;
+}
+
+/* CARD-TEXT */
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    margin: 2rem;
+}
+
+.maxim-container {
+    display: flex;
+
+}
+
+.maxim-img {
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+
+.maxim.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign {
+    color: #fff;
+    background-color: blue;
+    display: flex;
+
+    width: 50%;
+    height: 50px;
 }
