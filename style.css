@@ -46,3 +46,24 @@ body {
 .img-container {
     display: flex;
 }
+
+/* MAXİM */
+
+.maxim {
+    color: #fff;
+    background-color: black;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maxim-text {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.maxim-name img {
+    border-radius: 50px;
+    margin-right: 10px;
+}
