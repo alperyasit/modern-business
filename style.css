@@ -29,7 +29,7 @@ body {
 }
 
 .main-text-container {
-    flex-direction: column;
+    margin-right: 10rem;
 }
 
 .btn-container {
@@ -98,9 +98,12 @@ body {
     margin: 2rem;
 }
 
+.card-img-top {
+    height: 350px;
+}
+
 .maxim-container {
     display: flex;
-
 }
 
 .maxim-img {
