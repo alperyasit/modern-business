@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.second-container img {
+    margin: 4rem 2rem;
+    width: 500px;
+    height: 300px;
+}
